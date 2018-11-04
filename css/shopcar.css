@@ -1,0 +1,66 @@
+*{padding: 0;margin: 0}
+a{text-decoration: none;color: black}
+a:hover{text-decoration: none;color: red}
+ul{list-style: none}
+.clear:after{
+    clear: both;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+}
+.box{width: 95%;margin: auto;min-width: 1024px}
+/*顶部导航*/
+.head{}
+.head_login{float: left;margin-left: 30px}
+.head_title{float: right;margin-right:30px}
+.head_title>li{float: left;padding-right: 20px}
+/*搜索框*/
+/*logo图片部分*/
+.search{width: 85%;margin: auto;margin-top: 20px;}
+.search_pic{float: left;margin-left: 30px}
+.search_pic>img{height: 60px}
+.search_log1{float: left;margin-left:10px}
+.search_log1 img{width: 60px;padding-top: 5px}
+/*搜索框*/
+.search_box{float: right;width: 70%;margin-top: 10px}
+.search_box>input{border: 3px solid red}
+.search_box>input:first-child{width: 60%;font-size: 12px;padding: 6px;padding-top: 9px;}
+.search_box>input:last-child{width: 15%;font-size: 16px;padding: 8px;color: white;background: red;border: 0;outline: none}
+/*购物车商品*/
+.main{width: 85%;margin: auto;border: 1px solid #f4f4f4}
+/*商品列表*/
+.main_title{width: 100%;border: 1px solid #eeeeee;padding-bottom: 10px}
+.main_title>li{float: left;font-size: 14px}
+.li1{width: 60%;padding-left: 20px;padding-top: 10px}
+.li2{width: 10%;padding-top: 10px;padding-left: 10px }
+/*购物车商品部分*/
+.content_t{background: #eeeeee;padding: 10px;border-bottom: 1px dashed #c1c1c1
+}
+.content_t>span:first-child{color: red;font-size: 12px;padding-left: 10px}
+.content_t>span:last-child{font-size: 12px}
+/*商品信息图片部分*/
+.shop_info>ul{border-bottom: 1px solid #f4f4f4}
+.shop_info>ul>li{float: left;padding: 10px}
+.shop_info>ul>li>div{float: left;padding: 5px}
+.div1{width: 5%;}
+.div2{width: 15%}
+.div3{width: 30%}
+.shop_info>ul>.li1>div:last-child{color: #c1c1c1;font-size: 13px}
+/*价格*/
+.single_price>p:first-child{text-decoration: line-through;font-size: 13px;color:#c1c1c1 }
+/*数量*/
+.single_num>input{font-size: 10px}
+.single_num>input:first-child{background: white;border: 0;outline: none;}
+.single_num>input:last-child{background: white;border: 0;outline: none;}
+/*结算部分*/
+/*左边部分*/
+.content_foot{background: #eeeeee;font-size: 14px;}
+.foot_left{float: left;}
+.foot_right{float: right;}
+.foot_left>input{margin-left: 20px;margin-top: 15px}
+.del{padding-left: 20px}
+/*右边部分*/
+.foot_right>span:first-child{padding-right: 10px}
+.sum_money{color: red;padding-right: 10px}
+.foot_right>input{padding: 10px;width: 70px;background: red;border: 0;outline: none;color: white}
